@@ -1,0 +1,265 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #dadada;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #f0e4e4;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Header */
+  header {
+    background-color: #18a64e;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  /* Hero */
+  .hero {
+    background-image: url(nature.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: #fcfcfc;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #18a64e;
+    color: #fefefe;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+  }
+
+  .btn:hover {
+    background-color: #0c2d09de;
+  }
+  
+  /* About */
+  .about {
+    background-color: #18a64e;
+    padding: 50px 20px;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .about p{
+    font-size: 21px;
+  }
+  
+  /* Services */
+  .services {
+    background-color: #18a64e;
+    padding: 50px 20px;
+  }
+  
+  .services h2 {
+    
+    font-size: 36px;
+    margin-bottom: 20px;
+    background-color: #18a64e;
+  }
+
+  .services li{
+    font-size: 21px;
+  }
+
+  .blog{
+    
+    background-color: #18a64e;
+    padding: 50px 20px;
+  }
+
+  .blog h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .blog h3{
+    font-size: 25px;
+    }
+  
+
+  .blog p{
+    font-size: 21px;
+  }
+
+  .services ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .services li {
+    flex-basis: calc(33.33% - 20px);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  /* Testimonials */
+  .testimonials {
+    background-color:#18a64e;
+    padding: 50px 20px;
+  }
+  
+  .testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial {
+    margin-bottom: 40px;
+  }
+  
+  .testimonial p {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial span {
+    font-weight: bold;
+  }
+  
+  /* Contact */
+  .contact {
+    background-color: #18a64e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .contact form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact input,
+  .contact textarea {
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .contact p{
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .contact button{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .contact button[type="submit"]:active {
+    animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  @keyframes button{
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+      }
+    50% {
+        transform: scale(0.95);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+      }
+    }
+
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
